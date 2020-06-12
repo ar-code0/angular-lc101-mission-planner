@@ -1,3 +1,14 @@
 .editable-text {
     cursor: pointer;
 }
+  
+h3{
+    color:grey;
+    border: 0.5px grey dashed;
+    padding: 5px;
+    background-color: white;
+}
+.title{
+    font-weight: bolder;
+    color: black;
+}

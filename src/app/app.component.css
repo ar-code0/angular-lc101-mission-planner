@@ -1,4 +1,21 @@
+.one{
+    text-align: center;
+    padding: 10px;
+    border: 1px grey solid;
+    background-color: azure;
+    color: burlywood;
+}
+.two{
+    margin-top: 20px;
+    padding: 50px;
+    border: 1px grey solid;
+    background-color: beige;
+    color: black;
+}
 .box {
     display: flex;
     padding: 10px;
-}
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 70px;
+ }

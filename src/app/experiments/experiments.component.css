@@ -1,0 +1,11 @@
+h3{
+    text-align: center;
+    border: 0.5px grey solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.remove{
+    position: absolute; 
+    left: 85%;
+}
