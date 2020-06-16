@@ -4,10 +4,14 @@
 
 h2 {
     text-align: center;
-    color: brown;
+    color: rgb(234, 237, 241);
+    border: 0.5px grey dashed;
+    padding: 5px;
+    background-color: rgb(118, 138, 190);
 }
 
 h1 {
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
+

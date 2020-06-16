@@ -1,5 +1,22 @@
+.one{
+    text-align: center;
+    padding: 10px;
+    border: 1px grey solid;
+    background-color: rgb(93, 94, 95);
+    color: rgb(248, 247, 245);
+    font-weight: bolder;
+}
+.two{
+    margin-top: 20px;
+    border: 1px grey solid;
+    background-color: rgb(224, 237, 255);
+    color: black;
+}
 .box {
     display: flex;
     padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 70px;
     justify-content: space-evenly;
-}
+ }

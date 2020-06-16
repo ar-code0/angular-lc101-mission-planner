@@ -15,8 +15,21 @@ img {
     display: block;
 }
 
-h3 {
+h3{
     text-align: center;
+    border: 0.5px grey solid;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
 }
 
 /* Add a 'selected' class here to style selected astronaut names a different color. */
+.selected{
+    color: rgb(102, 7, 73);
+    font-weight: bold;
+}
+#alias{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(78, 22, 22);
+}

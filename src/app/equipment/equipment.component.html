@@ -3,12 +3,13 @@
     <ol>
         <li *ngFor="let item of equipmentItems">
             <!-- "Add to Cargo Hold" button goes here. -->
-            <button (click)="addItem(item); disab()" [disabled]="item.inactive" [class.active]="!item.inactive">Add to Cargo Hold</button>
-            {{item.name}}, {{item.mass}} kg
+            <button (click)="addItem(item); disab()" [disabled]="item.inactive" [class.active]="!item.inactive">Add</button>
+            <button (click)="removeItem(item); disab()" [disabled]="item.remove">Remove</button>
+            <span id="txt-size">{{item.name}}, {{item.mass}} kg</span>
         </li>
     </ol>
 </div>
-
+<br>
 <hr>
 
 <div class = "displayBox">
